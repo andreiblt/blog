@@ -1,0 +1,27 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+
+# Theme in themes/austere-theme-zola
+theme = "austere-theme-zola"
+
+title = "Andrei Baltariu"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+# Put all your custom variables here
+strapline = ""
+footer_text = ""
+menu_links = [
+  { url = "$BASE_URL/", name = "Home" },
+  { url = "$BASE_URL/blog/", name = "Blog" },
+]
