@@ -15,7 +15,10 @@ build_search_index = true
 [markdown]
 
 [markdown.highlighting]
-theme = "catppuccin-mocha"
+light_theme = "catppuccin-latte"
+dark_theme = "catppuccin-mocha"
+# Code blocks follow the site's theme toggle rather than the OS setting
+add_color_scheme = false
 
 [extra]
 # Put all your custom variables here
