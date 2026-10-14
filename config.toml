@@ -25,3 +25,7 @@ menu_links = [
   { url = "$BASE_URL/", name = "Home" },
   { url = "$BASE_URL/blog/", name = "Blog" },
 ]
+
+# Inline the theme's SVG icons; its <img> fallback uses root-absolute paths that break under /blog
+inline_icons = true
+icon_path = "themes/austere-theme-zola/static/icons/"
