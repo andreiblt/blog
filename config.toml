@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://andreiblt.github.io"
+base_url = "https://andreiblt.github.io/blog"
 
 # Theme in themes/austere-theme-zola
 theme = "austere-theme-zola"
@@ -26,7 +26,7 @@ strapline = ""
 footer_text = ""
 menu_links = [
   { url = "$BASE_URL/", name = "Home" },
-  { url = "$BASE_URL/blog/", name = "Blog" },
+  { url = "$BASE_URL/posts/", name = "Blog" },
 ]
 
 # Inline the theme's SVG icons; its <img> fallback uses root-absolute paths that break under /blog
