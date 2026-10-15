@@ -26,7 +26,7 @@ strapline = ""
 footer_text = ""
 menu_links = [
   { url = "$BASE_URL/", name = "Home" },
-  { url = "$BASE_URL/posts/", name = "Blog" },
+  { url = "$BASE_URL/posts/", name = "Posts" },
 ]
 
 # Inline the theme's SVG icons; its <img> fallback uses root-absolute paths that break under /blog
