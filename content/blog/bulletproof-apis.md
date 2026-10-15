@@ -342,7 +342,8 @@ environment `unwrap()` will abort the execution of the program so it is not advi
 test if the compile time checks work try moving the code around to see the magic.
 
 I will also include in the source code repository a binary file that represents the same API but
-with more focus on the runtime aspect. The errors are printed only when you run it.
+with more focus on the runtime aspect. The errors are printed only when you run it. Here is the link
+to the [repo](https://github.com/andreiblt/bulletproof-apis).
 
 The type system does not replace testing, but it can eliminate entire classes of invalid API usage
 before the program is ever run. In our example, an incorrect state transition order is rejected
